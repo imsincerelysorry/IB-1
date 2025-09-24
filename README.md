@@ -1,4 +1,4 @@
-# Информационная безопасность. Работа 1. P3412. Степутенко Илья.
+# Информационная безопасность. Работа 1. P3412. Степутенко И.С.
 
 ## Разработка защищенного REST API с интеграцией в CI/CD (Spring Boot 3)
 
@@ -148,6 +148,6 @@ curl -X POST http://localhost:8080/auth/login \
 
 [Файл с отчётом](./docs/snyk-report.json)
 
-[Ссылка на последний успешный action](https://github.com/zapadniy-ZOV/IB-1/actions/runs/17829620927)
+[Ссылка на последний успешный action]([https://github.com/zapadniy-ZOV/IB-1/actions/runs/17829620927](https://github.com/imsincerelysorry/IB-1/actions/runs/17970700208/job/51112383511))
 
 *Последний успешный action, связанный с настройкой самой утилиты и изменением кода, не обновления в README. Все jobs после изменений в README никак не влияют на успешный запуск пайплайна.
