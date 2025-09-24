@@ -37,14 +37,6 @@ cd secure-api
 
 По умолчанию приложение слушает `http://localhost:8080`.
 
-## Переменные окружения
-- **DB_URL**: JDBC‑URL Postgres. По умолчанию `jdbc:postgresql://localhost:5432/secure_api`.
-- **DB_USERNAME/DB_PASSWORD**: учётные данные БД. По умолчанию `postgres`/`postgres`.
-- **JWT_SECRET**: секрет для подписи JWT (HS256). Поддерживается сырой текст или Base64.
-- **JWT_TTL_SECONDS**: время жизни access‑токена в секундах. По умолчанию `3600`.
-- **JPA_DDL_AUTO**: режим схемы Hibernate, по умолчанию `update` (см. `application.properties`).
-- **INIT_USERNAME / INIT_PASSWORD / INIT_EMAIL**: при старте создаёт пользователя, если его ещё нет.
-
 ## API
 Все эндпоинты (кроме логина) требуют заголовок `Authorization: Bearer <JWT>`.
 
