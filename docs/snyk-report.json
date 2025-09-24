@@ -2,7 +2,7 @@
   "vulnerabilities": [],
   "ok": true,
   "dependencyCount": 76,
-  "org": "artem_balin_2004",
+  "org": "ilya_steputenko_2004",
   "policy": "# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.\nversion: v1.25.1\nignore: {}\npatch: {}\npolicy:\n  exclude:\n    - licenses\n",
   "isPrivate": true,
   "licensesPolicy": {
